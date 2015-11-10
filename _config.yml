@@ -3,11 +3,12 @@ title: Loke Carlsson
 contact: Kontakt
 email: lc222ak@student.lnu.se
 description: > # this means to ignore newlines until "baseurl:"
-  Presentation av Loke Carlsson som är studerande webbprogrammerare vid Linneuniversitetet, Kalmar.
+  Presentation av Loke Carlsson, studerande webbprogrammerare vid Linneuniversitetet, Kalmar.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: Loke_Carlsson
 github_username:  LokeCarlsson
+facebook_username: loke.carlsson.1
 
 # Build settings
 markdown: kramdown
