@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "Mina svar"
+date:   2015-11-13 13:35:22
+categories: jekyll update
+---
+
+### What do you think of pre-compiling your CSS?
+I like pre-compiling CSS such as Sass because it provides some strong tools to use. For example I really like variables and color transformation.
+
+#### Compare to regular CSS
+As a developer of a website you can sit and write all the CSS code in how many different pages as you want and when your ready, compile it into one big CSS file that the website will use. This means that you only get one HTTP request from the server but the developer have the advantage of using multiple files. 
+
+#### Which techniques did you use?
+I used for example variables, mix, color transformation and nesting.
+
+#### Pros and cons?
+The positive things that pre-compiled CSS gives are great and powerful tools that help the developer write the code faster and in a nicer way. The code that is produced will be esier to maintain.
+
+An example of the negative of pre-compiled CSS is that it adds another layer of complexity to the process. Because you need to compile it before you get the code you can't normally live edit a site that uses pre-compiled CSS. 
+
+### What do you think of static site generators?
+I think that static site generators are great because you dont need to involve databases and can for example get blog posts on your static site. It's very fast compared to non-static sites. This makes it much more secure as well, and you dont need to worry about patching the security and plugins all the time. 
+
+#### What type of projects are they suitable for?
+Blogging, photo galleries and portfolios which you might have normally needed some kind of server to provide post och pictures for example can now be used as a static site.
+
+### What is robots.txt and how have you configure it for your site?
+It's a text file which is placed in the root of the website folder so that web crawlers can search the web. One example is that Google use this to index the web content for its search engine. I have configured my robots.txt to allow all crawlers.
+
+### What is humans.txt and how have you configure it for your site?
+It's a text file that is placed beside the robots.txt file and works so that people can check information for example about the team behind the website and/or special thanks to contributers and also some information about the sites technical aspects.
+
+### How did you implements comments to blog posts
+I used the tool Disqus to add comments to my site which was suggested. It was very simple yet very strong commenting software that worked great and was easy to implament to the site, all i had to do was to add this following code to my site:
+
+{% highlight JavaScript %}
+(function() {
+var d = document, s = d.createElement('script');
+
+s.src = '//lokecarlsson.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+
+{% endhighlight %}
+
+### What is Open Graph and how do you make use of it?
+
+
+Go back to [Main page][mainpage] if you like to!
+
+[mainpage]:    /

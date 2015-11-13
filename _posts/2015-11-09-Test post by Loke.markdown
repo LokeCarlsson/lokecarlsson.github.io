@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Loke's test!"
-date:   2015-11-03 13:35:22
+date:   2015-11-08 13:35:22
 categories: jekyll update
 ---
 This is a `Testpost`. 
@@ -16,4 +16,4 @@ return five + ten;
 
 Go back to [Main page][mainpage] if you like to!
 
-[mainpage]:    http://localhost:4000
+[mainpage]:    /
