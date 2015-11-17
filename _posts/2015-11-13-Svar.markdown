@@ -47,7 +47,7 @@ s.setAttribute('data-timestamp', +new Date());
 {% endhighlight %}
 
 ### What is Open Graph and how do you make use of it?
-
+Open Graph enables I used open graph's tags for title, url, type and image so that the sharing will be much better on facebook. I thought that those meta tags where the most important to have on the site.
 
 Go back to [Main page][mainpage] if you like to!
 
